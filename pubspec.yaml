@@ -36,6 +36,7 @@ dependencies:
   timeago: ^3.6.0
   table_calendar: ^3.1.1
   flutter_launcher_icons: ^0.14.4
+  # vercel_analytics: ^0.1.0
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.

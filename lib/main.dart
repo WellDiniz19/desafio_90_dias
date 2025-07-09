@@ -4,6 +4,7 @@ import 'package:timeago/timeago.dart' as timeago;
 import 'package:timeago/src/messages/pt_br_messages.dart';
 import 'package:intl/date_symbol_data_local.dart'; // <-- IMPORT ADICIONADO
 import 'app.dart'; // Importa o widget principal do app
+// import 'package:vercel_analytics/vercel_analytics.dart';
 
 Future<void> main() async {
   // Garante que os bindings do Flutter foram inicializados
