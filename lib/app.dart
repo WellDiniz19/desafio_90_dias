@@ -22,7 +22,8 @@ class Desafio90DiasApp extends StatelessWidget {
           ),
           iconTheme: IconThemeData(color: Colors.white),
         ),
-        cardTheme: CardTheme(
+        // CORREÇÃO: O nome da classe foi alterado para CardThemeData
+        cardTheme: CardThemeData(
           elevation: 2,
           shape: RoundedRectangleBorder(
             borderRadius: BorderRadius.circular(12),
