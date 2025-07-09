@@ -152,11 +152,19 @@ class _LoginScreenState extends State<LoginScreen> {
                         child: const Text('Não tem uma conta? Cadastre-se'),
                       ),
                     ),
-                    // Botão "Esqueci minha senha"
-                    const SizedBox(height: 16),
-                    TextButton(
-                      onPressed: _forgotPassword,
-                      child: const Text('Esqueci minha senha'),
+                    const SizedBox(height: 12),
+                    SizedBox(
+                      width: double.infinity,
+                      // AJUSTE: O botão agora é um ElevatedButton para aceitar a cor de fundo
+                      child: ElevatedButton(
+                        onPressed: _forgotPassword,
+                        style: ElevatedButton.styleFrom(
+                          backgroundColor: const Color(
+                              0xFF8a3aeb), // Cor de fundo personalizada
+                          foregroundColor: Colors.white, // Cor do texto
+                        ),
+                        child: const Text('Esqueci minha senha'),
+                      ),
                     ),
                   ],
                 ),
